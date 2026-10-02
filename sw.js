@@ -1,4 +1,4 @@
-var CACHE = 'dvpw-v1';
+var CACHE = 'dvpw-v1.1';
 var FILES = ['./', 'index.html', 'styles.css', 'app.js', 'foreword.js', 'preface.js', 'conclusion.js',
   'author.js', 'references.js', 'progress.js', 'settings.js', 'foreword.html', 'preface.html',
   'conclusion.html', 'author.html', 'manifest.json', 'icon-192.png', 'icon-512.png'];
