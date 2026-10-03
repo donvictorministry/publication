@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#1877F2">
+<title>Page Not Found | The Prophetic Witness</title>
+<link rel="icon" type="image/png" href="/icon-192.png">
+<style>
+:root{--blue:#1877F2;--gold:#D4AF37;--navy:#051d3b;--bg:#f0f2f5;--card:#fff;--text:#343a40;--line:#dee2e6}
+[data-theme="dark"]{--bg:#18191a;--card:#242526;--text:#e4e6eb;--line:#3e4042}
+*{box-sizing:border-box}
+html{font-size:19px}
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:var(--bg);color:var(--text);font-family:Georgia,"Times New Roman",serif;line-height:1.7}
+header{background:var(--blue);color:#fff;height:56px;display:flex;align-items:center;justify-content:center;font-family:Arial,sans-serif;font-weight:700}
+main{flex:1;display:flex;align-items:center;justify-content:center;padding:1.5rem}
+.card{max-width:640px;width:100%;background:var(--card);border-top:5px solid var(--gold);border-radius:8px;box-shadow:0 8px 30px rgba(0,0,0,.1);padding:2.5rem 2rem;text-align:center}
+.code{font-family:Arial,sans-serif;font-size:4.5rem;font-weight:700;color:var(--blue);line-height:1;margin:0}
+h1{font-family:Arial,sans-serif;font-size:1.8rem;margin:.75rem 0 1rem}
+.verse{background:rgba(212,175,55,.12);border-left:5px solid var(--gold);padding:1rem 1.25rem;margin:1.5rem 0;font-style:italic;text-align:left;border-radius:0 8px 8px 0}
+a.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 2rem;background:var(--blue);color:#fff;text-decoration:none;border-radius:50px;font-family:Arial,sans-serif;font-weight:700}
+footer{text-align:center;padding:1.25rem 1rem;font-family:Arial,sans-serif;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header>The Prophetic Witness</header>
+<main>
+  <div class="card">
+    <p class="code">404</p>
+    <h1>This page could not be found</h1>
+    <p>The address you followed may be mistyped or the page may have been moved. You can return to the book and continue reading from the beginning.</p>
+    <div class="verse">"Prove all things; hold fast that which is good." (1 Thessalonians 5:21, KJV)</div>
+    <!-- SET HOME: use "/" for a main site, or "/YOUR-REPO/" for a GitHub Pages project site -->
+    <a class="btn" id="home" href="/">Return to The Prophetic Witness</a>
+  </div>
+</main>
+<footer>&copy; 2025 Dr. Chris Johnson. All Rights Reserved.</footer>
+<script>
+(function () {
+  try {
+    if (localStorage.getItem('dvPW_dark') === '1') document.documentElement.setAttribute('data-theme', 'dark');
+    var a = localStorage.getItem('dvPW_accent');
+    if (a) document.documentElement.style.setProperty('--blue', a);
+  } catch (e) {}
+})();
+</script>
+</body>
+</html>
