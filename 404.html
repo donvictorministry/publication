@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="#1877F2">
 <title>Page Not Found | The Prophetic Witness</title>
-<link rel="icon" type="image/png" href="/icon-192.png">
+<link rel="icon" type="image/png" href="icon-192.png" id="ico">
 <style>
 :root{--blue:#1877F2;--gold:#D4AF37;--navy:#051d3b;--bg:#f0f2f5;--card:#fff;--text:#343a40;--line:#dee2e6}
 [data-theme="dark"]{--bg:#18191a;--card:#242526;--text:#e4e6eb;--line:#3e4042}
@@ -31,12 +31,18 @@ footer{text-align:center;padding:1.25rem 1rem;font-family:Arial,sans-serif;borde
     <h1>This page could not be found</h1>
     <p>The address you followed may be mistyped or the page may have been moved. You can return to the book and continue reading from the beginning.</p>
     <div class="verse">"Prove all things; hold fast that which is good." (1 Thessalonians 5:21, KJV)</div>
-    <!-- SET HOME: use "/" for a main site, or "/YOUR-REPO/" for a GitHub Pages project site -->
     <a class="btn" id="home" href="/">Return to The Prophetic Witness</a>
   </div>
 </main>
 <footer>&copy; 2025 Dr. Chris Johnson. All Rights Reserved.</footer>
 <script>
+(function () {
+  /* Auto-detects the correct home address: no manual editing needed */
+  var p = location.pathname.split('/').filter(Boolean), base = '/';
+  if (/\.github\.io$/.test(location.hostname) && p.length && !/\.[a-z0-9]+$/i.test(p[0])) base = '/' + p[0] + '/';
+  var a = document.getElementById('home'); if (a) a.href = base;
+  var i = document.getElementById('ico'); if (i) i.href = base + 'icon-192.png';
+})();
 (function () {
   try {
     if (localStorage.getItem('dvPW_dark') === '1') document.documentElement.setAttribute('data-theme', 'dark');
