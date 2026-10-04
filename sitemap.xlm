@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- Replace YOUR-USERNAME and YOUR-REPO with your real address -->
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/contents.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/foreword.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/preface.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/introduction-the-unclaimed-mantle.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/chapter-1-the-prophetic-witness.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/chapter-2-mapping-the-terrain.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/chapter-3-a-framework-for-formation.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/chapter-4-from-theory-to-practice.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/chapter-5-interpreting-the-outcomes.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/chapter-6-writing-the-vision.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/chapter-7-conclusion.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/about-the-author.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/references.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/contact.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/engage.html</loc><lastmod>2026-10-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>
